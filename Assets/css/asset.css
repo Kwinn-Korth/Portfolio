@@ -1,0 +1,206 @@
+:root { 
+    --nav: 3px solid black;
+    --color1: #888888
+}
+
+@media screen and (max-width: 992px) {
+    
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+* {
+    font-family: sans-serif, Arial;
+    color: black;
+}
+
+body {
+    background-color: ivory;
+}
+
+.header {
+    background: linear-gradient(to right, navy, white);
+    font-size: 30px;
+}
+
+h1 {
+    color: gray;
+    display: flex;
+    justify-content: baseline;
+    position: relative;
+    left: 100px;
+}
+
+h2 {
+    display:flex;
+    justify-content: flex-end;
+    position: relative;
+    right: 200px;
+    font-size: 45px;
+    color: grey;
+}
+
+nav {
+    background: linear-gradient(to right, navy, white);
+    padding: 10px;
+    display:flex;
+    justify-content: flex-end;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    margin-right: 10px;
+}
+
+#about-me {
+    background-color: ivory;
+}
+
+#works {
+    background-color: ivory;
+}
+
+#contact-me {
+    background-color: ivory;
+}
+
+p {
+    font-size: 20px;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#img1 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+    margin: 50px;
+    border: 5px solid gray;
+    box-shadow: 5px 10px var(--color1);
+}
+
+#img2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+    margin: 50px;
+    border: 5px solid gray;
+    box-shadow: 5px 10px var(--color1);
+}
+
+#img3 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+    margin: 50px;
+    border: 5px solid gray;
+    box-shadow: 5px 10px var(--color1);
+}
+
+#img4 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+    margin: 50px;
+    border: 5px solid gray;
+    box-shadow: 5px 10px var(--color1);
+}
+
+#img5 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+    margin: 50px;
+    border: 5px solid gray;
+    box-shadow: 5px 10px var(--color1);
+}
+
+#img6 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+    margin: 50px;
+    border: 5px solid gray;
+    box-shadow: 5px 10px var(--color1);
+}
+
+#about-me {
+    border: var(--nav)
+}
+
+#about-me:hover {
+    color: purple;
+}
+
+#works {
+    border:  var(--nav)
+}
+
+#works:hover {
+    color: purple;
+}
+
+#contact-me {
+    border: var(--nav);
+}
+
+#contact-me:hover {
+    color: purple;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    font-size: 40px;
+    border-top: 5px solid black;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+}
+
+#phone {
+    padding-left: 80px;
+    font-size: 20px;
+    display: flex;
+    justify-content: left;
+}
+
+#email {
+    padding-left: 80px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#x {
+    padding-left: 80px;
+    font-size: 20px;
+    display: flex;
+    justify-content: right;
+}
+
+#email:hover {
+    color: purple;
+}
+
+#x:hover {
+    color:purple;
+}
+
+#phone:hover {
+    color:purple;
+}
