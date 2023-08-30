@@ -9,6 +9,6 @@ how it looks and add more features in the future to make it more responsive.
 
 Anyone is welcome to use this, it's very basic so it should be easy to add to.
 
-![screenshot-1](Assets/images/screenshot-1)
-![screenshot-2](Assets/images/screenshot-2)
-![screenshot-3](Assets/images/screenshot-3)
+![screenshot-1](Assets/images/screenshot-1.jpg)
+![screenshot-2](Assets/images/screenshot-2.jpg)
+![screenshot-3](Assets/images/screenshot-3.jpg)
